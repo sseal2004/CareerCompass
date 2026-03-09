@@ -19,7 +19,7 @@ CORS(app)
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-MODEL_DIR = os.path.join(BASE_DIR, "..", "deep learning", "trained_models")
+MODEL_DIR = os.path.join(BASE_DIR, "..", "deep_learning", "trained_models")
 
 MODEL_PATH = os.path.join(MODEL_DIR, "career_model.keras")
 SCALER_PATH = os.path.join(MODEL_DIR, "scaler.pkl")
