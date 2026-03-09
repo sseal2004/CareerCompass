@@ -1,7 +1,6 @@
-python-3.10.13
 Flask==3.0.3
 Flask-Cors==4.0.1
-tensorflow
+tensorflow-cpu==2.15.0
 numpy
 pandas
 scikit-learn
